@@ -1,3 +1,50 @@
-body {
-    background-color: red;
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+body{
+  background-color: #232323;
+}
+header{
+    height: 450px;
+    width: auto;
+    background: url("./pexels-ana-madeleine-uribe-2762942.jpg")no-repeat 25% 25%;
+    color:#fffcf9;
+    background-size:cover;
+    
+}
+a{
+    color:#e8dcce;
+}
+a:hover{
+    color:#f6c277
+}
+
+li {
+  float: right;
+  margin: 20px 50px 0 20px ;
+}
+.logo {
+  float: left;
+}
+
+.prin {
+  padding-top: 80px;
+  text-align:center;
+}
+.btn{
+    margin: 50px auto;
+    height:auto;
+    width:150px;
+    border:1px #f6c277 solid;
+    background-color: #f6c277;
+    color: #000;
+    border-radius: 5px;
+}
+h1{
+  margin: 80px auto 30px auto;
+}
+.prin p{
+  color:#e8dcce;
 }
